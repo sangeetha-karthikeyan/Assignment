@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h2>🎉 Event Registration</h2>
+        <p class="subtitle">Register and be part of something amazing</p>
+
+        <form action="register.php" method="POST">
+            <div class="input-group">
+                <input type="text" name="name" required>
+                <label>Name</label>
+            </div>
+
+            <div class="input-group">
+                <input type="email" name="email" required>
+                <label>Email</label>
+            </div>
+
+            <div class="input-group">
+                <select name="event_name" required>
+                    <option value="" disabled selected>Select Event</option>
+                    <option>Workshop</option>
+                    <option>Hackathon</option>
+                    <option>Tech Talk</option>
+                </select>
+            </div>
+
+            <button type="submit">Register Now 🚀</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
