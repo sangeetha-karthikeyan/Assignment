@@ -1,1 +1,2 @@
-print("hello new world 0001")
+print("hello new world")
+
